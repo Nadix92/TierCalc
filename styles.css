@@ -1,0 +1,35 @@
+@font-face {
+  font-family: diablo;
+  src: url(diablo_h.ttf);
+}
+
+body {
+  background-image: url("img/d3-background.jpg");
+  background-color: rgba(0, 0, 0, 0.089);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  font-family: diablo;
+}
+
+.form-control {
+  margin: 0 0 7%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 7% 17%;
+  background-color: rgba(0, 0, 0, 0.527);
+  }
+
+.calulator {
+  padding: 5% 10%;
+  text-align: center;
+  color: #ffc107;
+  line-height: 2;
+  margin: 2% 26%;
+}
