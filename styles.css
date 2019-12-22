@@ -4,8 +4,8 @@
 }
 
 body {
-  background-image: url("img/d3-background.jpg");
-  background-color: rgba(0, 0, 0, 0.089);
+  /* background-image: url("img/d3-background.jpg"); */
+  background-color: #2f2822;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -13,23 +13,39 @@ body {
   font-family: diablo;
 }
 
-.form-control {
-  margin: 0 0 7%;
+p {
+  padding-top: 7%;
+  font-family: monospace;
+  font-size: 1.5rem;
+  
 }
 
-p,
-h1,
-h2,
-h3,
-h4 {
-  margin: 7% 17%;
-  background-color: rgba(0, 0, 0, 0.527);
-  }
+/* Input */
+.form-control {
+  margin: 0 auto 1.5rem;
+  width: 237px;
+}
 
+
+
+/* global div */
 .calulator {
-  padding: 5% 10%;
+  
   text-align: center;
   color: #ffc107;
-  line-height: 2;
-  margin: 2% 26%;
+  line-height: 4;
+  margin: 2% 7%;
+}
+
+/* All buttons */
+.btn {
+  margin: 0 1%;
+  
+}
+
+/* Left and right Button */
+.plus-minus {
+  font-family: monospace;
+  font-size: 1.5rem;
+  
 }

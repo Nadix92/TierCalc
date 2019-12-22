@@ -1,12 +1,28 @@
 function tierCalc() {
-  var inputNum = document.getElementById("myText").value;
-  var tierNum = 100 * 1.17 ** inputNum - 100;
-  var resault = inputNum + " Tiers = " + Math.round(tierNum) + "% More hp";
+  const inputNum = document.getElementById("myText").value;
+  const tierNum = 100 * 1.17 ** inputNum - 100;
+  const resault =
+    "+" + inputNum + " Tiers = " + Math.round(tierNum) + "% More hp";
 
-  if (isNaN(inputNum)) {
-    return (document.getElementById("demo").innerHTML =
-      "Insert a number Idiot!!");
-  } else {
-    return (document.getElementById("demo").innerHTML = resault);
-  }
+  return (document.getElementById("resualt").innerHTML = resault);
 }
+
+function pluss() {
+  let inputNum = document.getElementById("myText").value++;
+  inputNum++;
+  const tierNum = 100 * 1.17 ** inputNum - 100;
+  const resault =
+    "+" + inputNum + " Tiers = " + Math.round(tierNum) + "% More hp";
+
+  return (document.getElementById("resualt").innerHTML = resault);
+}
+
+const minus = () => {
+  let inputNum = document.getElementById("myText").value--;
+  inputNum--;
+  const tierNum = 100 * 1.17 ** inputNum - 100;
+  const resault =
+    "+" + inputNum + " Tiers = " + Math.round(tierNum) + "% More hp";
+
+  return (document.getElementById("resualt").innerHTML = resault);
+};

@@ -17,6 +17,7 @@
   <body>
     <div class="calulator">
       <h1 id="output">D3 Tier HP Calculator</h1>
+      <p id="resualt"></p>
       <input
         type="number"
         class="form-control"
@@ -25,11 +26,21 @@
         required
         autofocus
         autocomplete="off"
+        
       />
+    
+      <button onclick="minus()" class="btn btn-outline-warning btn-lg plus-minus">
+        -
+      </button>
+
       <button onclick="tierCalc()" class="btn btn-outline-warning btn-lg">
         Caluclate Now!
       </button>
-      <h2 id="demo"></h2>
+
+      <button onclick="pluss()" class="btn btn-outline-warning btn-lg plus-minus">
+        +
+      </button>
+      
     </div>
 
     <script src="index.js"></script>
