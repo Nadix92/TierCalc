@@ -4,7 +4,12 @@ function tierCalc() {
   const resault =
     "+" + inputNum + " Tiers = " + Math.round(tierNum) + "% More hp";
 
-  return (document.getElementById("resualt").innerHTML = resault);
+    if (inputNum < 1) {
+      return (document.getElementById("resualt").innerHTML = "Number can't be negative or 0");
+    } else {
+
+      return (document.getElementById("resualt").innerHTML = resault);
+    }
 }
 
 function pluss() {
@@ -14,7 +19,14 @@ function pluss() {
   const resault =
     "+" + inputNum + " Tiers = " + Math.round(tierNum) + "% More hp";
 
-  return (document.getElementById("resualt").innerHTML = resault);
+  
+
+    if (inputNum < 1) {
+      return (document.getElementById("resualt").innerHTML = "Number can't be negative or 0");
+    } else {
+
+      return (document.getElementById("resualt").innerHTML = resault);
+    }
 }
 
 const minus = () => {
@@ -24,5 +36,11 @@ const minus = () => {
   const resault =
     "+" + inputNum + " Tiers = " + Math.round(tierNum) + "% More hp";
 
-  return (document.getElementById("resualt").innerHTML = resault);
+    if (inputNum < 1) {
+      return (document.getElementById("resualt").innerHTML = "Number can't be negative or 0");
+    } else {
+
+      return (document.getElementById("resualt").innerHTML = resault);
+    }
+
 };
