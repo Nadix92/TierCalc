@@ -24,6 +24,13 @@ p {
 .form-control {
   margin: 0 auto 1.5rem;
   width: 237px;
+  border-color: #ffc107;
+}
+
+.form-control:focus {
+  border-color: #ffc107;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffc107a9;
+  
 }
 
 
