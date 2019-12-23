@@ -34,20 +34,19 @@ p {
   padding-top: 0;
 }
 
-.middle {
-  
-}
+
 
 @media only screen and (max-width:991px) {
   .left {
     text-align: center;
-    padding: 7%;
+    padding: 1% 0 4%;
   }
   
   .right {
     text-align: center;
-    padding: 7%;
+    padding: 4%;
   }
+  
 }
 
 
